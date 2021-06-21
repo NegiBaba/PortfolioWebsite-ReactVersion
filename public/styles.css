@@ -1,4 +1,53 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+body {
+  border: 2px solid rgb(217, 217, 217);
+  border-radius: 8px;
+  font-family: "Montserrat";
+  margin: 15px;
+}
+
+/*** NAVIGATION BAR ***/
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.55);
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item {
+  font-size: 1.04rem;
+  margin: 0 0.9rem 0 0.9rem;
+  padding-bottom: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid;
+  padding-bottom: 0;
+}
+
+.ham-button {
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/*** PROFILE SECTION ***/
+.profile {
+  margin: 7% 7%;
+}
+
+.profile-img img {
+  border-radius: 10px;
+  display: block;
+  height: 300px;
+  image-rendering: -webkit-optimize-contrast;
+  margin: auto;
+}
+
+.profile-text {
+  color: rgb(80, 80, 30);
+  margin: auto 0;
+  text-align: left;
 }
