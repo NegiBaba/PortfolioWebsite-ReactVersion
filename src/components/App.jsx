@@ -1,13 +1,20 @@
 import React from "react";
 
 import Header from "./Header";
-import Profile from "./Profile";
+import HorizontalRule from "./HorizontalRule";
+import Profile from "./Profile/Profile";
+import About from "./About/About";
 
 function App() {
-  return <div>
-    <Header />
-    <Profile />
-    </div>;
+  return (
+    <div>
+      <Header />
+      <Profile />
+      <HorizontalRule />
+      <About />
+      <HorizontalRule />
+    </div>
+  );
 }
 
 export default App;
