@@ -4,6 +4,8 @@ import Header from "./Header";
 import HorizontalRule from "./HorizontalRule";
 import Profile from "./Profile/Profile";
 import About from "./About/About";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <HorizontalRule />
       <About />
       <HorizontalRule />
+      <Projects />
+      <Contact />
     </div>
   );
 }
